@@ -1,6 +1,8 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
     "strict": true,
     "paths": {
       "@/*": [
@@ -9,8 +11,11 @@
     }
   },
   "include": [
-    "**/*.ts",
     "**/*.tsx",
+    "**/*.tsx",
+    ".expo/types/**/*.tsx",
+    "expo-env.d.tsx",
+    "context/DeptContext.js",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
   ]

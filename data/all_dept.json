@@ -1,0 +1,2822 @@
+[
+    {
+        "dept": "CSE",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EC235",
+                        "Course Name": "Electronic Devices and Digital Systems",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS203",
+                        "Course Name": "Computer Organization and Architecture",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS204",
+                        "Course Name": "Data Structures",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS205",
+                        "Course Name": "Object Oriented Programming Languages",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC236",
+                        "Course Name": "Electronic Devices and Digital Systems Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS206",
+                        "Course Name": "Data Structures Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS207",
+                        "Course Name": "Object Oriented Programming Languages Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "MA206",
+                        "Course Name": "Mathematics for Computing",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS208",
+                        "Course Name": "Operating Systems",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS209",
+                        "Course Name": "Design and Analysis of Algorithms",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS210",
+                        "Course Name": "Database Management Systems",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS211",
+                        "Course Name": "Software Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS212",
+                        "Course Name": "Operating System Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS213",
+                        "Course Name": "Design and Analysis of Algorithms Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS214",
+                        "Course Name": "Database Management Systems Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS215",
+                        "Course Name": "Platform Technologies",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS216",
+                        "Course Name": "Computer Networks",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS217",
+                        "Course Name": "Automata Theory and Compiler Design",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS218",
+                        "Course Name": "Platform Technologies Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS219",
+                        "Course Name": "Computer Networks Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "CS220",
+                        "Course Name": "Microprocessors and Microcontrollers",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS221",
+                        "Course Name": "Web Technologies",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS222",
+                        "Course Name": "Information Security",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS223",
+                        "Course Name": "Microprocessors and Microcontrollers Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS224",
+                        "Course Name": "Web Technologies Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "CS225",
+                        "Course Name": "Artificial Intelligence",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS226",
+                        "Course Name": "Parallel and Distributed Systems",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS227",
+                        "Course Name": "Data Science Essentials",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS228",
+                        "Course Name": "Artificial Intelligence Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS229",
+                        "Course Name": "Seminar",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "CS230",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "CS231",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "CS232",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "CS233",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "IT",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "EC233",
+                        "Course Name": "Electronic Circuits",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT201",
+                        "Course Name": "Digital System Design",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT202",
+                        "Course Name": "Data Structures",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT203",
+                        "Course Name": "Object Oriented Programming using C++ &  Java",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "IT204",
+                        "Course Name": "Digital Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT205",
+                        "Course Name": "Data Structures Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT206",
+                        "Course Name": "Object Oriented Programming Laboratory (C++ & Java)",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "MA206",
+                        "Course Name": "Mathematics for Computing",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "IT207",
+                        "Course Name": "Operating Systems",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT208",
+                        "Course Name": "Computer Architecture",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT209",
+                        "Course Name": "Microprocessors and Applications",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT210",
+                        "Course Name": "Design and Analysis of Algorithms",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT211",
+                        "Course Name": "Operating Systems Laboratory with UNIX  / Linux",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT212",
+                        "Course Name": "Microprocessor Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT213",
+                        "Course Name": "Design and Analysis of Algorithms Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "IT214",
+                        "Course Name": "Database Management System",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT215",
+                        "Course Name": "Resource Management and Graph Theory",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "IT216",
+                        "Course Name": "Computer Networks",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "IT217",
+                        "Course Name": "Information Coding Techniques",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT218",
+                        "Course Name": "Database Management System",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT219",
+                        "Course Name": "Computer Networks Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT220",
+                        "Course Name": "Information Coding Techniques",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "IT221",
+                        "Course Name": "Software Engineering",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT222",
+                        "Course Name": "Automata and Formal Languages",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "IT223",
+                        "Course Name": "Web Technology",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "IT224",
+                        "Course Name": "Web Technology Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT225",
+                        "Course Name": "Software Engineering Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "IT226",
+                        "Course Name": "Artificial Intelligence",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "IT227",
+                        "Course Name": "Artificial Intelligence Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT228",
+                        "Course Name": "Seminar",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "IT229",
+                        "Course Name": "Mini Project",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "IT230",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "IT231",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "IT232",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "IT233",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "ECE",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "MA205",
+                        "Course Name": "Linear Algebra, Numerical Methods and Random Processes",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EC201",
+                        "Course Name": "Circuits and Networks",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC202",
+                        "Course Name": "Electronic Devices and Circuits",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC203",
+                        "Course Name": "Electromagnetic Waves and Fields",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC204",
+                        "Course Name": "Digital System Design",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS234",
+                        "Course Name": "Data Structures and Object- Oriented Programming",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC205",
+                        "Course Name": "Electronic Devices and Networks Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS235",
+                        "Course Name": "Data Structures and Object- Oriented Programming Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "EC206",
+                        "Course Name": "Transmission Lines and Waveguides",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC207",
+                        "Course Name": "Electronic Circuit Design",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC208",
+                        "Course Name": "Signals and Systems",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EC209",
+                        "Course Name": "Analog Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EC210",
+                        "Course Name": "Digital System Design Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC211",
+                        "Course Name": "Electronic Circuit Design Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC212",
+                        "Course Name": "Analog Communication Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "EC213",
+                        "Course Name": "Digital Signal processing and DSP Processors",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EC214",
+                        "Course Name": "Digital Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS236",
+                        "Course Name": "Microprocessors and Microcontrollers",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EC215",
+                        "Course Name": "Digital Signal Processing Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC216",
+                        "Course Name": "Digital Communication Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS237",
+                        "Course Name": "Microprocessors and Microcontrollers Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "EC217",
+                        "Course Name": "Microwave and Optical Engineering",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC218",
+                        "Course Name": "Data Communication Networks",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC219",
+                        "Course Name": "VLSI Design",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC220",
+                        "Course Name": "Microwave and Optical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC221",
+                        "Course Name": "Data Communication Networks Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC222",
+                        "Course Name": "VLSI Design Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "EC223",
+                        "Course Name": "Wireless Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC224",
+                        "Course Name": "Information Theory and Coding",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC225",
+                        "Course Name": "Embedded System",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC226",
+                        "Course Name": "Wireless Communication Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC227",
+                        "Course Name": "Embedded System Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC228",
+                        "Course Name": "Mini Project",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "EC229",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "EC230",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "EC231",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EC232",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "CIVIL",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "CE202",
+                        "Course Name": "Engineering Mechanics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE203",
+                        "Course Name": "Engineering Geology",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "CE204",
+                        "Course Name": "Fluid Mechanics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE205",
+                        "Course Name": "Building Technology",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE206",
+                        "Course Name": "Surveying and Geomatics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE207",
+                        "Course Name": "Computer-Aided Civil Engineering Drawing",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CE208",
+                        "Course Name": "Surveying Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "MA203",
+                        "Course Name": "Numerical Methods and Statistics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE209",
+                        "Course Name": "Disaster Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE210",
+                        "Course Name": "Hydraulics Engineering",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI212",
+                        "Course Name": "Instrumentation and Sensor Technologies for Civil  Engineering Applications",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE211",
+                        "Course Name": "Concrete Technology",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE212",
+                        "Course Name": "Basics of Solid Mechanics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE213",
+                        "Course Name": "Materials Testing and Evaluation Laboratory-I",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CE214",
+                        "Course Name": "Fluid mechanics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "CE215",
+                        "Course Name": "Mechanics of Materials",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE216",
+                        "Course Name": "Environmental Engineering",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE217",
+                        "Course Name": "Transportation Engineering",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE218",
+                        "Course Name": "Hydrology Water Resources and Irrigation  Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE219",
+                        "Course Name": "Material Testing and Evaluation Laboratory-II  (Highway and Concrete Laboratory)",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CE220",
+                        "Course Name": "Environmental Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "CE221",
+                        "Course Name": "Structural Analysis",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE222",
+                        "Course Name": "Structural Concrete Design",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE223",
+                        "Course Name": "Geotechnical Engineering",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE224",
+                        "Course Name": "Estimation costing and Valuation",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE225",
+                        "Course Name": "Geotechnical Engg. Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CE226",
+                        "Course Name": "Structural Mechanics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics & Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE227",
+                        "Course Name": "Computer Aided Analysis and Design of Structures",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CE228",
+                        "Course Name": "Seminar",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "CE229",
+                        "Course Name": "Professional Practice, Law & Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "CE230",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "CE231",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "CE232",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "MECH",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "MA204",
+                        "Course Name": "Transforms, PDE and Statistics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME203",
+                        "Course Name": "Engineering Mechanics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME204",
+                        "Course Name": "Fluid Mechanics and Hydraulic Machines",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME205",
+                        "Course Name": "Engineering Thermodynamics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME206",
+                        "Course Name": "Materials Technology",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME207",
+                        "Course Name": "Machine Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EC234",
+                        "Course Name": "Elements of Electronics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME208",
+                        "Course Name": "Mechanics of Solids",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME209",
+                        "Course Name": "Thermal Engineering \u00e2\u20ac\u201c I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME210",
+                        "Course Name": "Machining Technology",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME211",
+                        "Course Name": "Kinematics of Machines",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME212",
+                        "Course Name": "Mechanical Engineering Lab \u00e2\u20ac\u201cI",
+                        "Credit": 3.0
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "ME213",
+                        "Course Name": "Heat and Mass Transfer",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME214",
+                        "Course Name": "Manufacturing Processes",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME215",
+                        "Course Name": "Dynamics of Machines",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "ME216",
+                        "Course Name": "Mechanical Engineering Lab \u00e2\u20ac\u201cII",
+                        "Credit": 3.0
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME217",
+                        "Course Name": "Thermal Engineering \u00e2\u20ac\u201c II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME218",
+                        "Course Name": "Metrology and Measurements",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME219",
+                        "Course Name": "Design of Machine Elements",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME220",
+                        "Course Name": "Seminar",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "ME221",
+                        "Course Name": "Mechanical Engineering Lab \u00e2\u20ac\u201cIII",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "ME222",
+                        "Course Name": "Operations Research",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "ME223",
+                        "Course Name": "Industrial Engineering and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME224",
+                        "Course Name": "Advanced Manufacturing Technology",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "ME225",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "ME226",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "ME227",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "ME228",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "CHEM",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "CY203",
+                        "Course Name": "Chemistry for Chemical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CE233",
+                        "Course Name": "Engineering Mechanics and Mechanics of",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "CH201",
+                        "Course Name": "Momentum Transfer",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH202",
+                        "Course Name": "Process Calculations",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "CY204",
+                        "Course Name": "Chemistry Lab for Chemical Engineering",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "MA204",
+                        "Course Name": "Transforms,\tPartial\tDifferential",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "CH203",
+                        "Course Name": "Process Heat Transfer",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH204",
+                        "Course Name": "Mechanical Operations",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CH205",
+                        "Course Name": "Chemical Engineering Thermodynamics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH206",
+                        "Course Name": "Mass Transfer \u00e2\u20ac\u201c I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EC234",
+                        "Course Name": "Elements of Electronics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CH207",
+                        "Course Name": "Chemical Engineering Lab \u00e2\u20ac\u201c I",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "CH208",
+                        "Course Name": "Mass Transfer \u00e2\u20ac\u201c II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH209",
+                        "Course Name": "Chemical Reaction Engineering \u00e2\u20ac\u201c I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH210",
+                        "Course Name": "Chemical Process Industries",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CH211",
+                        "Course Name": "Chemical Engineering Lab \u00e2\u20ac\u201c II",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "CH212",
+                        "Course Name": "Chemical Reaction Engineering \u00e2\u20ac\u201c II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH213",
+                        "Course Name": "Computational Methods and Practice in",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CH214",
+                        "Course Name": "Chemical Engineering Lab \u00e2\u20ac\u201c III",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "CH215",
+                        "Course Name": "Transport Phenomena",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH216",
+                        "Course Name": "Process Dynamics & Control",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH217",
+                        "Course Name": "Process Equipment Design & Practice",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CH218",
+                        "Course Name": "Process Engineering Economics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CH219",
+                        "Course Name": "Chemical Engineering Lab \u00e2\u20ac\u201c IV",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CH220",
+                        "Course Name": "Seminar",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "CH221",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "CH222",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "CH223",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "CH224",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "EIE",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "MA204",
+                        "Course Name": "Transforms, Partial Differential Equations  and Statistics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EI201",
+                        "Course Name": "Circuit Theory",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EI202",
+                        "Course Name": "Electronic Circuits",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI203",
+                        "Course Name": "Electronic Design and fabrication",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EI204",
+                        "Course Name": "Digital Logic Theory and Design",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI205",
+                        "Course Name": "Electronic Circuits Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EI206",
+                        "Course Name": "Electronic Design and fabrication lab",
+                        "Credit": 1.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EI207",
+                        "Course Name": "Linear Integrated Circuits",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI208",
+                        "Course Name": "Electrical and Electronics Instruments",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI209",
+                        "Course Name": "Transducers and Measurements System",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS234",
+                        "Course Name": "Data Structures and OOPS",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI210",
+                        "Course Name": "Linear and Integrated Circuits Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS235",
+                        "Course Name": "Data structures and OOPS Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EI211",
+                        "Course Name": "Transducers and Measurements System  Lab",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "EI213",
+                        "Course Name": "Industrial Instrumentation",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EI214",
+                        "Course Name": "Microprocessors and Applications",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI215",
+                        "Course Name": "Control Systems",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EI216",
+                        "Course Name": "Instrumentation System design Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EI217",
+                        "Course Name": "VLSI Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EI218",
+                        "Course Name": "Microprocessors and Applications Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "EI219",
+                        "Course Name": "Process Control",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EI220",
+                        "Course Name": "Embedded System Design",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EI221",
+                        "Course Name": "Robotics and Automation",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI222",
+                        "Course Name": "Process Control Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EI223",
+                        "Course Name": "Virtual Instrumentation Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EI224",
+                        "Course Name": "Embedded System Design Lab",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "EI225",
+                        "Course Name": "PLC and DCS",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EI226",
+                        "Course Name": "Analytical Instruments",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EI227",
+                        "Course Name": "Industrial Measurements and Control Lab",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EI228",
+                        "Course Name": "Seminar",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "EI229",
+                        "Course Name": "Mini Project",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EI230",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "EI231",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "EI232",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EI233",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "EEE",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "MA204",
+                        "Course Name": "Transforms Partial Differential Equations  and Statistics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE203",
+                        "Course Name": "Electrical Circuit Analysis",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE204",
+                        "Course Name": "Electromagnetic Fields",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE205",
+                        "Course Name": "Electronic Devices and Circuits",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE206",
+                        "Course Name": "Electrical Machines - I",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE207",
+                        "Course Name": "Signals and Systems",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE208",
+                        "Course Name": "Electronics Laboratory-I",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EE209",
+                        "Course Name": "Electrical Machines Laboratory - I",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EE210",
+                        "Course Name": "Analog Electronics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE211",
+                        "Course Name": "Pulse and Digital Circuits",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE212",
+                        "Course Name": "Electrical Machines - II",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS234",
+                        "Course Name": "Data Structures and Object Oriented  Programming",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE213",
+                        "Course Name": "Electronics Laboratory - II",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EE214",
+                        "Course Name": "Electrical Machines Laboratory - II",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS235",
+                        "Course Name": "Data Structures and Object Oriented  Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "EE215",
+                        "Course Name": "Analog and Digital Integrated circuits",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE216",
+                        "Course Name": "Power Electronics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE217",
+                        "Course Name": "Measurement and Instrumentation",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE218",
+                        "Course Name": "Transmission and Distribution",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE219",
+                        "Course Name": "Control Systems",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE220",
+                        "Course Name": "Electronics laboratory - III",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EE221",
+                        "Course Name": "Measurement and Control Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "EE222",
+                        "Course Name": "Power System Analysis",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE223",
+                        "Course Name": "Microprocessors and Microcontrollers",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EP201",
+                        "Course Name": "Entrepreneurship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EE224",
+                        "Course Name": "Microprocessors and Microcontrollers  Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EE225",
+                        "Course Name": "Power Electronics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "EE226",
+                        "Course Name": "Power System Operation and Control",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE227",
+                        "Course Name": "Protection and Switchgear",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE228",
+                        "Course Name": "Solid State Drives",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE229",
+                        "Course Name": "Power Systems Laboratory",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EE230",
+                        "Course Name": "Seminar",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "EE231",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "EE232",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "EE233",
+                        "Course Name": "Internship",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "EE234",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dept": "MT",
+        "SEMS": [
+            {
+                "semester": 1,
+                "courses": [
+                    {
+                        "Course Code": "FY201",
+                        "Course Name": "Induction Programme",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MA201",
+                        "Course Name": "Mathematics I",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "EE201",
+                        "Course Name": "Basic Electrical Engineering",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS201",
+                        "Course Name": "Programming for problem Solving",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME202",
+                        "Course Name": "Engineering Graphics And Computer Aided Drawing",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CE201",
+                        "Course Name": "Environmental Science",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "EE202",
+                        "Course Name": "Electrical Engineering Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS202",
+                        "Course Name": "Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 2,
+                "courses": [
+                    {
+                        "Course Code": "MA202",
+                        "Course Name": "Mathematics II",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "PH201",
+                        "Course Name": "Physics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CY201",
+                        "Course Name": "Chemistry",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "HS201",
+                        "Course Name": "English for Communication",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "ME201",
+                        "Course Name": "Workshop and Manufacturing Practice",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "PH202",
+                        "Course Name": "Physics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CY202",
+                        "Course Name": "Chemistry Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 3,
+                "courses": [
+                    {
+                        "Course Code": "MA204",
+                        "Course Name": "Transforms, PDE and Statistics",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "MT201",
+                        "Course Name": "Manufacturing Processes",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT202",
+                        "Course Name": "Hydraulic and Pneumatic Systems",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT203",
+                        "Course Name": "Mechanics of Solids and Design",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EC237",
+                        "Course Name": "Analog and Digital Electronics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT204",
+                        "Course Name": "Material Testing & Manufacturing Processes  Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "MT205",
+                        "Course Name": "Hydraulic and Pneumatic Systems Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "EC238",
+                        "Course Name": "Analog and Digital Electronics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "SH202",
+                        "Course Name": "Indian Constitution",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 4,
+                "courses": [
+                    {
+                        "Course Code": "SH201",
+                        "Course Name": "Biology for Engineers",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "MT206",
+                        "Course Name": "Sensors and Measurements",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "CS236",
+                        "Course Name": "Microprocessor and Micro Controllers",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EI203",
+                        "Course Name": "Electronic Design and fabrication (TCP)",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "CS234",
+                        "Course Name": "Data Structures and Object Oriented Programming",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT207",
+                        "Course Name": "Sensors and Measurements Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS237",
+                        "Course Name": "Microprocessor and Micro Controller Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS235",
+                        "Course Name": "Data Structures and Object Oriented",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT221",
+                        "Course Name": "Innovative Design Thinking",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 5,
+                "courses": [
+                    {
+                        "Course Code": "MT208",
+                        "Course Name": "Control System",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "MT209",
+                        "Course Name": "Industrial Automation",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "EE235",
+                        "Course Name": "Power Electronics and Drives",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "SH203",
+                        "Course Name": "Essence of Indian Traditional Knowledge",
+                        "Credit": 0.0
+                    },
+                    {
+                        "Course Code": "MT210",
+                        "Course Name": "Industrial Automation Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "MT211",
+                        "Course Name": "Dynamics and Control Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS238",
+                        "Course Name": "Python Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 6,
+                "courses": [
+                    {
+                        "Course Code": "HS202",
+                        "Course Name": "Industrial Economics and Management",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT212",
+                        "Course Name": "CAD/CAM Technology",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "MT213",
+                        "Course Name": "Industrial Robotics",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT214",
+                        "Course Name": "Embedded System Design",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT222",
+                        "Course Name": "Engineering Design Project",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "MT215",
+                        "Course Name": "CAD / CAM/ Robotics Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "MT216",
+                        "Course Name": "Embedded System Design Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "CS239",
+                        "Course Name": "Java Programming Laboratory",
+                        "Credit": 1.5
+                    }
+                ]
+            },
+            {
+                "semester": 7,
+                "courses": [
+                    {
+                        "Course Code": "MT217",
+                        "Course Name": "Mechatronics System Design",
+                        "Credit": 4.0
+                    },
+                    {
+                        "Course Code": "MT218",
+                        "Course Name": "Modeling and Simulation",
+                        "Credit": 3.0
+                    },
+                    {
+                        "Course Code": "MT219",
+                        "Course Name": "System Integration Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "MT220",
+                        "Course Name": "Modeling and Simulation Laboratory",
+                        "Credit": 1.5
+                    },
+                    {
+                        "Course Code": "MT223",
+                        "Course Name": "Mini Project",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "MT224",
+                        "Course Name": "Professional Ethics",
+                        "Credit": 0.0
+                    }
+                ]
+            },
+            {
+                "semester": 8,
+                "courses": [
+                    {
+                        "Course Code": "MT225",
+                        "Course Name": "Comprehensive Test",
+                        "Credit": 1.0
+                    },
+                    {
+                        "Course Code": "MT226",
+                        "Course Name": "Internship ( 3 months duration)",
+                        "Credit": 2.0
+                    },
+                    {
+                        "Course Code": "MT227",
+                        "Course Name": "Project Work",
+                        "Credit": 8.0
+                    }
+                ]
+            }
+        ]
+    }
+]

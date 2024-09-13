@@ -1,0 +1,23 @@
+[
+    {
+      "type": "OEC",
+      "courses": [
+        {
+          "Course Code": "OEC",
+          "Course Name": "Open Elective course",
+          "Credit": 3
+        }
+      ]
+    },
+    {
+      "type": "H&M",
+      "courses": [
+        {
+          "Course Code": "H&m",
+          "Course Name": "Honours OR MINORS",
+          "Credit": 2
+        }
+      ]
+    }
+  ]
+  
