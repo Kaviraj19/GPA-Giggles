@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, FlatList, ScrollView, LogBox } from 'react-native';
+import React, { useState, useEffect, useCallback } from 'react';
+import { View, StyleSheet, FlatList, ScrollView, LogBox, Animated, ActivityIndicator } from 'react-native';
 import { Text, Box, VStack, HStack, Button } from 'native-base';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useDept } from '../context/DeptContext'; // Adjust import path
-import data from '../data/all_dept.json'; // Adjust the path based on where you place your JSON file
-import additionalData from '../data/hm_oec_data.json'; // Load additional H&M and OEC courses
+import { useDept } from '../context/DeptContext'; 
+import data from '../data/all_dept.json'; 
+import additionalData from '../data/hm_oec_data.json'; 
+import GpaResults from '../components/GpaResult';
 
 interface Course {
   'Course Code': string;
@@ -26,37 +27,54 @@ interface Department {
 const grades = ['S', 'A', 'B', 'C', 'D', 'E', 'F'];
 
 const Getcgpa: React.FC = () => {
-  const { selectedDept, selectedSemester, rollNo, oec, hm } = useDept(); // Ensure rollNo and H&M/OEC are available
+  const { selectedDept, selectedSemester, rollNo, oec, hm } = useDept();
   const [courses, setCourses] = useState<Course[]>([]);
   const [gradeSelections, setGradeSelections] = useState<{ [key: string]: string }>({});
   const [cgpa, setCgpa] = useState<number | null>(null);
+  const [showResults, setShowResults] = useState(false);
+  const [loading, setLoading] = useState(true); // Add loading state
+
+  // Track animated values for grade buttons
+  const [animatedValues, setAnimatedValues] = useState<{ [key: string]: Animated.Value }>({});
 
   useEffect(() => {
     LogBox.ignoreLogs(['VirtualizedLists should never be nested']); // Ignore potential warnings
 
-    if (selectedDept && selectedSemester !== null && rollNo) {
-      const deptData = data.find((dept: Department) => dept.dept === selectedDept);
-      if (deptData) {
-        const semesterData = deptData.SEMS.find(sem => sem.semester === parseInt(selectedSemester));
-        if (semesterData) {
-          const mainCourses = semesterData.courses;
-          const hmOecCourses = getHmOecCourses(); // Get additional H&M and OEC courses
-          const allCourses = [...mainCourses, ...hmOecCourses]; // Combine main and additional courses
+    const fetchData = async () => {
+      if (selectedDept && selectedSemester !== null && rollNo) {
+        const deptData = data.find((dept: Department) => dept.dept === selectedDept);
+        if (deptData) {
+          const semesterData = deptData.SEMS.find(sem => sem.semester === parseInt(selectedSemester));
+          if (semesterData) {
+            const mainCourses = semesterData.courses;
+            const hmOecCourses = getHmOecCourses();
+            const allCourses = [...mainCourses, ...hmOecCourses]; // Combine main and additional courses
 
-          setCourses(allCourses);
+            setCourses(allCourses);
 
-          const initialGradeSelections = allCourses.reduce((acc, course) => {
-            acc[course['Course Code']] = '';
-            return acc;
-          }, {} as { [key: string]: string });
+            const initialGradeSelections = allCourses.reduce((acc, course) => {
+              acc[course['Course Code']] = '';
+              return acc;
+            }, {} as { [key: string]: string });
 
-          setGradeSelections(initialGradeSelections);
+            setGradeSelections(initialGradeSelections);
+
+            // Initialize animated values for each course
+            const initialAnimatedValues = allCourses.reduce((acc, course) => {
+              acc[course['Course Code']] = new Animated.Value(0);
+              return acc;
+            }, {} as { [key: string]: Animated.Value });
+
+            setAnimatedValues(initialAnimatedValues);
+          }
         }
       }
-    }
+      setLoading(false); // Set loading to false after fetching data
+    };
+
+    fetchData();
   }, [selectedDept, selectedSemester, rollNo, oec, hm]);
 
-  // Function to retrieve selected H&M and OEC courses
   const getHmOecCourses = (): Course[] => {
     let additionalCourses: Course[] = [];
 
@@ -73,9 +91,25 @@ const Getcgpa: React.FC = () => {
     return additionalCourses;
   };
 
-  const handleGradeChange = (courseCode: string, grade: string) => {
+  const handleGradeChange = useCallback((courseCode: string, grade: string) => {
+    // Trigger bounce animation for the selected button
+    Animated.sequence([
+      Animated.spring(animatedValues[courseCode], {
+        toValue: -10, // Move up
+        friction: 8,
+        tension: 80,
+        useNativeDriver: true,
+      }),
+      Animated.spring(animatedValues[courseCode], {
+        toValue: 0, // Move down
+        friction: 2,
+        tension: 40,
+        useNativeDriver: true,
+      }),
+    ]).start();
+
     setGradeSelections(prev => ({ ...prev, [courseCode]: grade }));
-  };
+  }, [animatedValues]);
 
   const calculateCGPA = async () => {
     let totalCredits = 0;
@@ -92,8 +126,8 @@ const Getcgpa: React.FC = () => {
 
     const cgpaValue = totalCredits > 0 ? totalGradePoints / totalCredits : 0;
     setCgpa(cgpaValue);
+    setShowResults(true);
 
-    // Save data to AsyncStorage
     await saveData({
       rollNo,
       department: selectedDept,
@@ -128,9 +162,9 @@ const Getcgpa: React.FC = () => {
       };
 
       await AsyncStorage.setItem(key, JSON.stringify(existingData));
-      console.log('Data saved successfully');
+     // console.log('Data saved successfully');
     } catch (error) {
-      console.error('Failed to save data:', error);
+      // console.error('Failed to save data:', error);
     }
   };
 
@@ -146,22 +180,44 @@ const Getcgpa: React.FC = () => {
       default: return 0.0;
     }
   };
+  const handleGoBack = () => {
+    setShowResults(false); // Go back to form view
+  };
 
   return (
     <View style={styles.wrapper}>
-      <ScrollView contentContainerStyle={styles.container}>
-        <VStack space={4} alignItems="center" w="100%" px={4}>
-          <FlatList
-            data={courses}
-            keyExtractor={(item) => item['Course Code']}
-            renderItem={({ item }) => (
+      {loading ? (
+        <View style={styles.loaderContainer}>
+          <ActivityIndicator size="large" color="#48CFCB" />
+        </View>
+      ) : showResults ? (
+        <GpaResults cgpa={cgpa} onGoBack={handleGoBack} /> // Render results page
+      ) : (
+        <FlatList
+          contentContainerStyle={styles.container}
+          data={courses}
+          keyExtractor={(item) => item['Course Code']}
+          renderItem={({ item }) => {
+            const isSelected = gradeSelections[item['Course Code']] !== '';
+            const animatedStyle = {
+              transform: [
+                {
+                  translateY: animatedValues[item['Course Code']].interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [0, -5],
+                  }),
+                },
+              ],
+            };
+  
+            return (
               <Box
                 borderWidth={1}
                 borderColor="#48CFCB"
                 borderRadius="md"
                 p={5}
                 mb={4}
-                w="100%" // Adjusted to fit within the container
+                w="100%"
                 bg="#424242"
               >
                 <Text fontSize={18} mb={2} color="#48CFCB">
@@ -177,56 +233,63 @@ const Getcgpa: React.FC = () => {
                   <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                     <HStack space={2} alignItems="center">
                       {grades.map((grade) => (
-                        <Button
-                          key={grade}
-                          variant={gradeSelections[item['Course Code']] === grade ? 'solid' : 'outline'}
-                          onPress={() => handleGradeChange(item['Course Code'], grade)}
-                          _text={{
-                            color: gradeSelections[item['Course Code']] === grade ? 'white' : '#48CFCB',
-                          }}
-                          _pressed={{
-                            bg: "teal.600",
-                          }}
-                          style={{
-                            marginRight: 8,
-                            paddingHorizontal: 12,
-                            backgroundColor: gradeSelections[item['Course Code']] === grade ? '#48CFCB' : 'transparent',
-                            borderColor: '#48CFCB',
-                            borderWidth: 1,
-                          }}
-                        >
-                          {grade}
-                        </Button>
+                        <Animated.View key={grade} style={animatedStyle}>
+                          <Button
+                            variant={isSelected && gradeSelections[item['Course Code']] === grade ? 'solid' : 'outline'}
+                            onPress={() => handleGradeChange(item['Course Code'], grade)}
+                            _text={{
+                              color: isSelected && gradeSelections[item['Course Code']] === grade ? 'white' : '#48CFCB',
+                            }}
+                            _pressed={{
+                              bg: "teal.600",
+                            }}
+                            style={{
+                              marginRight: 10,
+                              paddingHorizontal: 12,
+                              backgroundColor: isSelected && gradeSelections[item['Course Code']] === grade ? '#48CFCB' : 'transparent',
+                              borderColor: '#48CFCB',
+                              borderWidth: 1,
+                            }}
+                          >
+                            {grade}
+                          </Button>
+                        </Animated.View>
                       ))}
                     </HStack>
                   </ScrollView>
                 </HStack>
               </Box>
-            )}
-          />
-          <Button mt={4} onPress={calculateCGPA} bg="#48CFCB">
-            <Text color="white">Calculate CGPA</Text>
-          </Button>
-          <Text mt={4} fontSize={16} color="#48CFCB">
-            {cgpa !== null ? `CGPA: ${cgpa.toFixed(2)}` : 'CGPA: Not Calculated'}
-          </Text>
-        </VStack>
-      </ScrollView>
+            );
+          }}
+          ListFooterComponent={
+            <Button mt={4} onPress={calculateCGPA} bg="#48CFCB">
+              <Text color="white">Calculate GPA</Text>
+            </Button>
+          }
+        />
+      )}
     </View>
   );
+  
 };
 
 const styles = StyleSheet.create({
   wrapper: {
     flex: 1,
-    backgroundColor: '#424242', // Set background color to gray
+    backgroundColor: '#424242',
   },
   container: {
     flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    paddingBottom: 40, // Add extra padding to ensure content isn't cut off
+    paddingBottom: 40,
+  },
+  loaderContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#424242',
   },
 });
 

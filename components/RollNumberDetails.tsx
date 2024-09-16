@@ -82,7 +82,7 @@ const RollNumberDetails: React.FC<RollNumberDetailsProps> = ({ rollNumber }) => 
           <View style={styles.semesterContent}>
             <Text style={styles.semesterTitle}>Semester: {item.semester}</Text>
             <View style={styles.cgpaConatiner}>
-              <Text style={styles.cgpaText}>CGPA:</Text>
+              <Text style={styles.cgpaText}>GPA:</Text>
               <Text style={styles.cgpaGrade}> {cgpa !== undefined ? cgpa.toFixed(2) : 'N/A'}</Text>
             </View>
             <FlatList
@@ -196,7 +196,7 @@ const RollNumberDetails: React.FC<RollNumberDetailsProps> = ({ rollNumber }) => 
     <View style={styles.container}>
       <View style={styles.graphContainer}>
         <Text style={styles.averageCGPAText}>
-          Overall Average CGPA: {overallAverageCGPA.toFixed(2)}
+          Overall CGPA: {overallAverageCGPA.toFixed(2)}
         </Text>
         <LineChart
           data={chartData}

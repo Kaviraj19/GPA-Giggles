@@ -97,8 +97,8 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     alignItems: 'center',
-    marginTop:5,
-    marginBottom: 5,
+    marginTop:20,
+    marginBottom: 1,
   },
   backButtonText: {
     color: '#fff',

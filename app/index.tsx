@@ -1,36 +1,40 @@
-import { Link } from 'expo-router';
+import { useRouter } from 'expo-router';
 import React from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, Image, Dimensions } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Image, Dimensions } from 'react-native';
 
 const HomeScreen = () => {
-  // Menu items data
-  const menuItems = [
-    { title: 'Calculate GPA', link: '/Getdept' },
-    { title: 'View CGPA', link: '/Viewresults' },
-  ];
-
-  // Render each item in the FlatList
-  const renderItem = ({ item }: { item: { title: string; link: string } }) => (
-    <TouchableOpacity style={styles.menuItem}>
-      <Link href={item.link}>
-        <Text style={styles.menuText}>{item.title}</Text>
-      </Link>
-    </TouchableOpacity>
-  );
+  const router = useRouter(); // Using useRouter for navigation
 
   return (
     <View style={styles.container}>
       <View style={styles.card}>
+      <View style={styles.headercontainer}>
         <Text style={styles.headerText}>Welcome to GPA Tracker</Text>
-        <FlatList
-          data={menuItems}
-          keyExtractor={(item) => item.title}
-          renderItem={renderItem}
-          contentContainerStyle={styles.listContainer}
-        />
+        </View>
+        <View style={styles.btncontainer}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => router.push('/Getdept')} 
+        >
+          <Text style={styles.buttonText}>Calculate GPA</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => router.push('/Viewresults')} // Navigate to Viewresults screen
+        >
+          <Text style={styles.buttonText}>View CGPA</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => router.push('/About')} // Navigate to Viewresults screen
+        >
+          <Text style={styles.buttonText}>About</Text>
+        </TouchableOpacity>
       </View>
+      </View>
+      
       <Image
-        source={require('../assets/girl.png')} // Ensure the image is in your assets folder
+        source={require('../assets/girl.png')}
         style={styles.girl}
       />
     </View>
@@ -41,55 +45,61 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#424242',
-   paddingTop: 140,
+    paddingTop: 140,
   },
   card: {
-    padding: 20,
-    margin: 20,
+    padding: 30,
+    margin:10,
+    paddingBottom:150,
     borderRadius: 8,
     borderWidth: 2,
-    borderColor: '#48CFCB', // Light grey border
-    backgroundColor: '#424242', // Card background color
-    shadowColor: '#000', // Shadow color
-    shadowOffset: { width: 0, height: 2 }, // Shadow offset
-    shadowOpacity: 0.1, // Shadow opacity
-    shadowRadius: 4, // Shadow radius
+    borderColor: '#48CFCB',
+    backgroundColor: '#424242',
+    shadowColor: '#48CFCB',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
     elevation: 2,
-    width: '90%', // Adjusted for proper spacing
-    alignSelf: 'center', // Center card horizontally
+    width: '90%',
+    alignSelf: 'center',
+    },
+  headercontainer:{
+    alignSelf: 'center',
+    width:"100%"
+  },
+  btncontainer:{
+    alignSelf: 'flex-end',
+    width:"60%"
   },
   headerText: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
     color: '#48CFCB',
-    textAlign: 'center', // Center text
+    textAlign: 'center',
   },
-  listContainer: {
-    alignItems: 'center',
-    paddingBottom: 200,
-  },
-  menuItem: {
-    backgroundColor: '#229799',
+  button: {
+    borderWidth: 1,
+    borderColor: '#48CFCB',
+    backgroundColor: '#424242',
     padding: 15,
     borderRadius: 10,
-    marginBottom: 10,
-    width: '100%', // Full width of the container
+    marginBottom: 20, // Add space between buttons
+    width: '80%',
     alignItems: 'center',
   },
-  menuText: {
+  buttonText: {
     fontSize: 18,
-    color: '#fff',
+    color: '#48CFCB',
     fontWeight: 'bold',
   },
   girl: {
     position: 'absolute', // Position the image absolutely
-    top:410, // Position at the bottom
-    right: 40, // Align to the right
+    bottom: -10, // Position at the bottom
+    left: 5, // Align to the right
     width: Dimensions.get('window').width - 40, // Adjust width as needed
-    height: 500, // Adjust height as needed
+    height: 450, // Adjust height as needed
     resizeMode: 'contain', // Ensure the image scales correctly
-     // Ensure the image appears on top of other elements
     elevation: 4, // Add elevation for Android shadow effect
   },
 });

@@ -29,12 +29,17 @@ export default function RootLayout() {
           />
           <Stack.Screen
             name="Viewresults"
-            options={{ headerTitle: 'Profile' }}
+            options={{ headerTitle: 'Profile',headerShown: false }}
           />
           <Stack.Screen
             name="Getcgpa"
-            options={{ headerTitle: 'Get Your CGPA' }}
+            options={{ headerTitle: 'Get Your GPA' }}
           />
+          <Stack.Screen
+            name="About"
+            options={{ headerTitle: 'About' }}
+          />
+
         </Stack>
       </DeptProvider>
     </NativeBaseProvider>
